@@ -1,7 +1,7 @@
 /*
  Displays the binary equivalent of numbers from 0 to 255 on 8 LEDs.
- P0.0–P0.3 : Active LOW LEDs
- P0.4–P0.7 : Active HIGH LEDs
+ P0.0â€“P0.3 : Active LOW LEDs
+ P0.4â€“P0.7 : Active HIGH LEDs
 */
 
 #include<LPC213x.h>
