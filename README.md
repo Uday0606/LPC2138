@@ -5,6 +5,7 @@ This repository contains Embedded C practice programs using LPC2138 (ARM7).
 ## Topics Covered
 - LEDs
 - LED & Switch
+- 7 Segment
 
 These programs focus on understanding GPIO configuration and basic hardware interfacing.
 
