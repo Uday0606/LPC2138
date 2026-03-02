@@ -1,5 +1,5 @@
 /*
- External Interrupt Control – LPC2138 (ARM7)
+ External Interrupt Control â€“ LPC2138 (ARM7)
  
 
   - EINT0 (P0.1)   Toggle LED1 (P0.10)
@@ -8,8 +8,8 @@
   - EINT3 (P0.9)   Toggle LED4 (P0.13)
  
   Hardware:
-  - LEDs connected to P0.10–P0.13 (Active LOW)
-  - Switches connected to EINT0–EINT3 pins
+  - LEDs connected to P0.10â€“P0.13 (Active LOW)
+  - Switches connected to EINT0â€“EINT3 pins
  
   Interrupt Configuration:
   - Edge-triggered (Falling Edge)
@@ -66,7 +66,7 @@ int main(void)
 	CONFIG_PIN_FUNC(7,3); //EINT2 switch
 	CONFIG_PIN_FUNC(9,3); //EINT3 switch
 	 
-	GPIO_OUTPUT_PINS(IODIR0,(1<<LED_1)|(1<<LED_2)|(1<<LED_3)|(1<<LED_4)); //AL_LEDS P0.4 TO P0.7
+	GPIO_OUTPUT_PINS(IODIR0,(1<<LED_1)|(1<<LED_2)|(1<<LED_3)|(1<<LED_4)); //AL_LEDS P0.10 TO P0.13
 	IOSET0=((1<<LED_1)|(1<<LED_2)|(1<<LED_3)|(1<<LED_4)); //AL_LEDS OFF INTIALLY
 	
 	//EINT0
@@ -106,4 +106,5 @@ int main(void)
 		
   }
 }
+
 
