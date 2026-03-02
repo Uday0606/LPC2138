@@ -8,8 +8,7 @@
   - Main loop increments counter and controls LED
   - After 5 presses, LED remains permanently ON
  
- 
- ******************************************************************************/
+*/
 
 #include <LPC213x.h>
 #include <stdint.h>
@@ -54,3 +53,4 @@ int main(void)
 		}
 	}
 }
+
